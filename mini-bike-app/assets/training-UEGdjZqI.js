@@ -1,0 +1,1 @@
+import{a as t}from"./level-CV39SJbc.js";import{k as n}from"./index-Dszkww1M.js";function s(){const e=t();return{currentDayToBeCompleated:n(()=>e.trainings.find(r=>r.isCompleted===!1))}}export{s as u};
