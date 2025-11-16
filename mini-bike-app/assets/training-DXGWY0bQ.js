@@ -1,0 +1,1 @@
+import{u as a}from"./trainings-L8zxFcVb.js";import{d as e}from"./dexie-CAxs-Gwa.js";import{p as o}from"./index-1xLuB4Tf.js";function f(){const n=a();return{currentDayToBeCompleated:o(()=>n.trainings.find(t=>t.isCompleted===!1)),checkIfThereIsChallangeSetup:async()=>{const t=await e.userData.count(),r=await e.trainings.count();return t>0||r>0}}}export{f as u};
