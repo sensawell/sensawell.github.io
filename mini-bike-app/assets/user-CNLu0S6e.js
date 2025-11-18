@@ -1,1 +1,0 @@
-import{d as s}from"./pinia-MkJoDdEG.js";import{d as r}from"./dexie-CAxs-Gwa.js";const o=s("user",{state:()=>({user:{}}),getters:{getUser:e=>e.user,getUserName:e=>e.user?.name||""},actions:{setUser(e){this.user=e},async loadUserData(){const e=await r.userData.toArray();this.user=e.length>0?e[0]:{}}}});export{o as u};
