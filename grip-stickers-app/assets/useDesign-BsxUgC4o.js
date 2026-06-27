@@ -1,0 +1,1 @@
+import{B as e}from"./vue.runtime.esm-bundler-AZAvnahJ.js";var t=e({width:null,height:null,stickersCount:null});export{t};
